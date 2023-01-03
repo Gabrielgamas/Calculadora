@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/script.css" />
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+    <main class="total">
+      <div class="espaco-cor">
+        <section class="espaco-calc">
+          <div class="resultados" id="resultados">
+            <div data-preview id="preview"></div>
+            <div data-resultado id="resultado"></div>
+          </div>
+          <button data-limpar class="limpar">AC</button>
+          <button data-operacao class="botao botao-sup">%</button>
+          <button data-operacao class="botao botao-operacao">÷</button>
+
+          <button data-numeros class="botao">7</button>
+          <button data-numeros class="botao">8</button>
+          <button data-numeros class="botao">9</button>
+          <button data-operacao class="botao botao-operacao">x</button>
+
+          <button data-numeros class="botao">4</button>
+          <button data-numeros class="botao">5</button>
+          <button data-numeros class="botao">6</button>
+          <button data-operacao class="botao botao-operacao">-</button>
+
+          <button data-numeros class="botao">1</button>
+          <button data-numeros class="botao">2</button>
+          <button data-numeros class="botao">3</button>
+          <button data-operacao class="botao botao-operacao">+</button>
+
+          <button data-numeros class="botao">0</button>
+          <button data-numeros class="botao">.</button>
+          <button data-deletar class="botao">
+            <img src="./img/apagar.png" alt="apagar" class="apagar" />
+          </button>
+          <button data-igual class="botao calcular">=</button>
+        </section>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
